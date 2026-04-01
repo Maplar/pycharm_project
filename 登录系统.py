@@ -1,4 +1,4 @@
-while True:
+for i in range(1,6):
     username = input("请输入正确的用户名：")
     password = input("请输入正确的用密码：")
 
@@ -10,5 +10,5 @@ while True:
         print("登陆成功")
         break
     else:
-        print("用户名或者密码错误，请重新输入。")
+        print("用户名或者密码错误5次，不允许再操作了。")
 
