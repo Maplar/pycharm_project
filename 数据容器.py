@@ -6,3 +6,9 @@
 # del s[5]#删除
 # for a in s: #遍历
 #     print(a)
+
+# s = {6,5,56,7,74,7,5}
+# print(s)
+s = (5,6,7)
+s[3] = 3
+type(s)
